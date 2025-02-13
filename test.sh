@@ -6,13 +6,15 @@ main_menu() {
     echo "1. RDS"
     echo "2. OBS"
     echo "3. SMS"
-    echo "4. Exit"
+    echo "4. AleUto"
+    echo "5. Exit"
     read -p "Choose an option (1-4): " choice
     case $choice in
         1) rds_menu ;;
         2) obs_menu ;;
         3) sms_menu ;;
         4) exit 0 ;;
+        5) exit 0 ;;
         *) echo "Invalid option, please choose again."; main_menu ;;
     esac
 }
