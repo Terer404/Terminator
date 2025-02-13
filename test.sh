@@ -32,7 +32,7 @@ main_menu() {
 # Function for RDS menu
 rds_menu() {
     echo "You selected RDS"
-    echo "1. RDS is ralitional database service."
+    echo "1. RDS is Ralitional Database Service."
     echo "2. RDS can be configured with ECS."
     echo "3. Proceed with command selection."
     echo "4. Back to main menu"
